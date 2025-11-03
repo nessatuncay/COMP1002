@@ -36,9 +36,9 @@
 
                 <fieldset>
                     <legend><h4>Pizza Size</h4></legend>
-                    <input type ="button" name="size" value="Small (6 slices)">
-                    <input type ="button" name="size" value="Medium (12 slices)">
-                    <input type ="button" name="size" value="Large (16 slices)"><br><br>
+                    <input type ="radio" name="size" value="Small (6 slices)">Small (6 slices)
+                    <input type ="radio" name="size" value="Medium (12 slices)">Medium (12 slices)
+                    <input type ="radio" name="size" value="Large (16 slices)">Large (16 slices)<br><br>
                 </fieldset>
 
                 <fieldset>
@@ -74,9 +74,9 @@
 
                 <fieldset>
                     <legend><h4>Crust Type</h4></legend>
-                    <input type="button" name="crust type" value="Thin Crust">
-                    <input type="button" name="crust type" value="Thick Crust">
-                    <input type="button" name="crust type" value="Cheese Filled"><br><br>
+                    <input type="radio" name="crust type" value="Thin Crust">Thin Crust
+                    <input type="radio" name="crust type" value="Thick Crust">Thick Crust
+                    <input type="radio" name="crust type" value="Cheese Filled">Cheese Filled<br><br>
                 </fieldset>
 
                 <fieldset>
@@ -86,6 +86,23 @@
                     <input type="radio" name="order type" value="dinein">Dine-In<br><br>
                 </fieldset>
 
+                <fieldset>
+                    <legend><h4>Customer Information</h4></legend>
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" placeholder="Name" required/><br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" placeholder="Email" required/><br><br>
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" name="phone" placeholder="Phone Number" required/><br><br>
+                    <label for="address">Address:</label>
+                    <input type="text" name="address" placeholder="Address" required/><br><br>
+                </fieldset>
+                
+                <fieldset>
+                    <legend><h3>Are you ready to submit?</h3></legend>
+                    <input type="submit" value="Submit Order">
+                    <input type="reset" value="Reset Form">
+                </fieldset>
                 </form>
 
 
