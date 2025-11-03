@@ -3,6 +3,22 @@
     <head>
         <meta charset="UTF-8">
         <title>Confirmed Orders</title>
+        <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #fff8f0;
+        }
+        main {
+            display: inline-block;
+            text-align: left;
+            background-color: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin-top: 40px;
+        }
+    </style>
     </head>
     <body>
         <header>
@@ -32,6 +48,8 @@
             <p>Email: <?php echo htmlspecialchars($_POST['email']); ?></p>
             <p>Phone Number: <?php echo htmlspecialchars($_POST['phone']); ?></p>
             <p>Address: <?php echo htmlspecialchars($_POST['address']); ?></p>
+        </main>
+    </body>
 
 
 </html>
