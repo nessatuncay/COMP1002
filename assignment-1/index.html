@@ -29,45 +29,62 @@
         </header>
         <section>
             <form action="submit_order.html" method="post">
-                <label for="pizza_amount"><h4>How many pizzas would you like?</h4></label><br>
-                <input type="text" name="pizza_amount" placeholder="Number of Pizzas" required/><br>
+                <fieldset>
+                    <legend><h4>Pizza Amount</h4></legend>
+                    <input type="text" name="pizza_amount" placeholder="Number of Pizzas" required/><br><br>
+                </fieldset>
 
-                <label for = "size"><h4>Pizza Size</h4></label><br>
-                <input type ="button" name="size" value="Small (6 slices)">
-                <input type ="button" name="size" value="Medium (12 slices)">
-                <input type ="button" name="size" value="Large (16 slices)"><br><br>
+                <fieldset>
+                    <legend><h4>Pizza Size</h4></legend>
+                    <input type ="button" name="size" value="Small (6 slices)">
+                    <input type ="button" name="size" value="Medium (12 slices)">
+                    <input type ="button" name="size" value="Large (16 slices)"><br><br>
+                </fieldset>
 
-                <label for = "shape"><h4>Pizza Shape</h4></label><br>
-                <input type="radio" name="shape" value="round">
-                <input type= "radio" name="shape" value="square"><br>
-                <label for="round">
-                    <img src="images/round-pizza.png" alt="Round Pizza" width="150">
-                </label>
-                <label for="square">
-                    <img src="images/square-pizza.png" alt="Square Pizza" width="140">
-                </label><br><br>
+                <fieldset>
+                    <legend><h4>Pizza Shape</h4></legend>
+                    <input type="radio" name="shape" value="round">
+                    <input type= "radio" name="shape" value="square"><br>
+                    <label for="round">
+                        <img src="images/round-pizza.png" alt="Round Pizza" width="150">
+                    </label>
+                    <label for="square">
+                        <img src="images/square-pizza.png" alt="Square Pizza" width="140">
+                    </label><br><br>
+                </fieldset>
 
-                <label for="toppings"><h4>Toppings</h4></label><br>
-                <input type="radio" name="toppings" value="pepperoni">Pepperoni
-                <input type="radio" name="toppings" value="mushrooms">Mushrooms
-                <input type="radio" name="toppings" value="onions">Onions<br>
-                <input type="radio" name="toppings" value="sausages">Sausages
-                <input type="radio" name="toppings" value="bacon">Bacon
-                <input type="radio" name="toppings" value="chicken">Chicken<br>
-                <input type="radio" name="toppings" value="potato">Potato
-                <input type="radio" name="toppings" value="parmesan">Parmesan 
-                <input type="radio" name="toppings" value="peppers">Peppers<br>
-                <input type="radio" name="toppings" value="blackolives">Black Olives
-                <input type="radio" name="toppings" value="ham">Ham
-                <input type="radio" name="toppings" value="avocado">Avocado<br>
-                <input type="radio" name="toppings" value="corn">Corn
-                <input type="radio" name="toppings" value="tomatoes">Tomatoes
-                <input type="radio" name="toppings" value="mozarella">Mozarella<br><br>
+                <fieldset>
+                    <legend><h4>Toppings</h4></legend>
+                    <input type="checkbox" name="toppings" value="pepperoni">Pepperoni
+                    <input type="checkbox" name="toppings" value="mushrooms">Mushrooms
+                    <input type="checkbox" name="toppings" value="onions">Onions<br>
+                    <input type="checkbox" name="toppings" value="sausages">Sausages
+                    <input type="checkbox" name="toppings" value="bacon">Bacon
+                    <input type="checkbox" name="toppings" value="chicken">Chicken<br>
+                    <input type="checkbox" name="toppings" value="potato">Potato
+                    <input type="checkbox" name="toppings" value="parmesan">Parmesan 
+                    <input type="checkbox" name="toppings" value="peppers">Peppers<br>
+                    <input type="checkbox" name="toppings" value="blackolives">Black Olives
+                    <input type="checkbox" name="toppings" value="ham">Ham
+                    <input type="checkbox" name="toppings" value="avocado">Avocado<br>
+                    <input type="checkbox" name="toppings" value="corn">Corn
+                    <input type="checkbox" name="toppings" value="tomatoes">Tomatoes
+                    <input type="checkbox" name="toppings" value="mozarella">Mozarella<br><br>
+                </fieldset>
 
-                <label for="crust type"><h4>Crust Type</h4></label><br>
-                <input type="button" name="crust type" value="Thin Crust">
-                <input type="button" name="crust type" value="Thick Crust">
-                <input type="button" name="crust type" value="Cheese Filled"><br><br>
+                <fieldset>
+                    <legend><h4>Crust Type</h4></legend>
+                    <input type="button" name="crust type" value="Thin Crust">
+                    <input type="button" name="crust type" value="Thick Crust">
+                    <input type="button" name="crust type" value="Cheese Filled"><br><br>
+                </fieldset>
+
+                <fieldset>
+                    <legend><h4>Order Type</h4></legend>
+                    <input type="radio" name="order type" value="pickup">Pickup
+                    <input type="radio" name="order type" value="delivery">Delivery
+                    <input type="radio" name="order type" value="dinein">Dine-In<br><br>
+                </fieldset>
 
                 </form>
 
