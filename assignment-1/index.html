@@ -4,7 +4,7 @@
         <meta charset="utf-8" />
         <title>Pizza Coven - Order Form</title>
         <style>
-            body
+            body /*making sure that everything aligns in the center and changed the font too*/
             {
                 text-align: center;
                 font-family: Arial, sans-serif;
@@ -23,25 +23,25 @@
         </style>
     </head>
     <body>
-        <header>
+        <header> <!--the header at the top of the page-->
             <h1>Welcome to Pizza Coven!</h1>
             <p>Custom make your dream pizza down below!</p>
         </header>
-        <section>
-            <form action="confirm.php" method="post">
-                <fieldset>
+        <section> <!--this section is for the order only-->
+            <form action="confirm.php" method="post"> <!--this will make sure that when you press submit it will take the order to the confirm.php page-->
+                <fieldset> <!--the amount of pizza the customer wants-->
                     <legend><h4>Pizza Amount</h4></legend>
                     <input type="text" name="pizza_amount" placeholder="Number of Pizzas" required/><br><br>
                 </fieldset>
 
-                <fieldset>
+                <fieldset> <!--customer chooses what size they want the pizzas-->
                     <legend><h4>Pizza Size</h4></legend>
                     <input type ="radio" name="size" value="Small (6 slices)">Small (6 slices)
                     <input type ="radio" name="size" value="Medium (12 slices)">Medium (12 slices)
                     <input type ="radio" name="size" value="Large (16 slices)">Large (16 slices)<br><br>
                 </fieldset>
 
-                <fieldset>
+                <fieldset> <!--customer chooses which shape they want for the pizzas-->
                     <legend><h4>Pizza Shape</h4></legend>
                     <input type="radio" name="shape" value="round">
                     <input type= "radio" name="shape" value="square"><br>
@@ -53,7 +53,7 @@
                     </label><br><br>
                 </fieldset>
 
-                <fieldset>
+                <fieldset> <!--customer can choose and unchoose whatever topping they want or now-->
                     <legend><h4>Toppings</h4></legend>
                     <input type="checkbox" name="toppings" value="pepperoni">Pepperoni
                     <input type="checkbox" name="toppings" value="mushrooms">Mushrooms
@@ -72,21 +72,21 @@
                     <input type="checkbox" name="toppings" value="mozarella">Mozarella<br><br>
                 </fieldset>
 
-                <fieldset>
+                <fieldset> <!--customer can choose which type of crust they want-->
                     <legend><h4>Crust Type</h4></legend>
                     <input type="radio" name="crust_type" value="Thin Crust">Thin Crust
                     <input type="radio" name="crust_type" value="Thick Crust">Thick Crust
                     <input type="radio" name="crust_type" value="Cheese Filled">Cheese Filled<br><br>
                 </fieldset>
 
-                <fieldset>
+                <fieldset> <!--customer chooses where they want to eat the pizza-->
                     <legend><h4>Order Type</h4></legend>
                     <input type="radio" name="order_type" value="pickup">Pickup
                     <input type="radio" name="order_type" value="delivery">Delivery
                     <input type="radio" name="order_type" value="dinein">Dine-In<br><br>
                 </fieldset>
 
-                <fieldset>
+                <fieldset> <!--customer puts in their information so the restaurant can deliver and contact the customer-->
                     <legend><h4>Customer Information</h4></legend>
                     <label for="name">Name:</label>
                     <input type="text" name="name" placeholder="Name" required/><br><br>
@@ -98,7 +98,7 @@
                     <input type="text" name="address" placeholder="Address" required/><br><br>
                 </fieldset>
                 
-                <fieldset>
+                <fieldset> <!--customer can submit their order and be taken to the confirm.php page or reset their order and put it in again-->
                     <legend><h3>Are you ready to submit?</h3></legend>
                     <input type="submit" value="Submit Order">
                     <input type="reset" value="Reset Form">
@@ -114,12 +114,6 @@
 
 
     </body>
-    <footer>
-
-
-
-    </footer>
-
 
 
 
