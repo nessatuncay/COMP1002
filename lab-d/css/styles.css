@@ -69,9 +69,9 @@ main {
 
 /* STEP 5a: Put a 1px dotted hotpink border around MAIN SECTION in the CSS rule below so we can see the box on the screen */
 main section {
-	border: 1px dotted hotpink;
+	/*border: 1px dotted hotpink;*/
 	width: 60%;
-
+	padding: 1em;
 }
 /* STEP 5b: Add 1em of padding on the top, right, bottom, and left of the above MAIN SECTION element - watch the effect in the browser */
 
@@ -81,9 +81,9 @@ main section time {
 
 /* STEP 5c: After adding a colored border to the below MAIN ASIDE, go ahead and also add padding to the top, right, and bottom (not the left) */
 main aside {
-
+	/*border: 1px solid blue;*/
 	width: 40%;
-
+	padding: 1em 1em 1em 0;
 }
 /* STEP 5d: Comment out the borders for the MAIN SECTION and the MAIN ASIDE above - we don't need them anymore */
 
@@ -128,7 +128,7 @@ blockquote::first-letter {
 
 /* STEP 6: The FOOTER is a bit too close to the MAIN - add a margin-top to the FOOTER of 2rem */
 footer {
-
+	margin-top: 2rem;
 	font-size: 1.6rem;
 }
 
