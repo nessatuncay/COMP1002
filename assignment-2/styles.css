@@ -37,11 +37,13 @@ body
 {
 
     0%,
-    100% {
+    100% 
+    {
         transform: rotate(0deg);
     }
 
-    50% {
+    50% 
+    {
         transform: rotate(1.5deg);
     }
 }
@@ -74,6 +76,7 @@ body
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
+    justify-content: center;
 }
 
 .gallery img 
@@ -111,4 +114,9 @@ body
     pointer-events: none;
     z-index: 5;
     mix-blend-mode: screen;
+}
+
+a
+{
+    color: rgb(145, 3, 3);
 }
