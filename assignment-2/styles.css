@@ -76,6 +76,15 @@ body
     gap: 40px;
 }
 
+.gallery img 
+{
+    max-width: 500px;
+    background: white;
+    padding: 15px 15px 60px;
+    border-radius: 4%;
+    box-shadow: 10px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
 .poster-wrap 
 {
     position: relative;
