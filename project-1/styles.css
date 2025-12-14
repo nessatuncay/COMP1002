@@ -22,8 +22,17 @@ body {
 .writing-ball
 {
     border: rgb(160, 115, 70) solid 10px;
-        border-radius: 15px;
-        box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.5);
-        max-width: 100%;
-        height: auto;
+    border-radius: 15px;
+    box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.5);
+    max-width: 100%;
+    height: auto;
+}
+
+.feedback
+{
+    background-color: #f9f6ef;
+    border: 5px solid #8f671c;
+    padding: 20px;
+    margin: 25px 0;
+    font-style: italic;
 }
