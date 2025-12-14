@@ -1,1 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+body {
+    font-family: 'Special Elite', monospace;
+    text-align: center;
+    background-color: #f4f1ee;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
