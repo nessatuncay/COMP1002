@@ -7,4 +7,23 @@ body {
     color: #333;
     margin: 0;
     padding: 20px;
+    line-height: 1.8;
+}
+
+.models-info img
+{
+    border: rgb(160, 115, 70) solid 10px;
+    border-radius: 15px;
+    box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.5);
+    max-width: 100%;
+    height: auto;
+}
+
+.writing-ball
+{
+    border: rgb(160, 115, 70) solid 10px;
+        border-radius: 15px;
+        box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.5);
+        max-width: 100%;
+        height: auto;
 }
